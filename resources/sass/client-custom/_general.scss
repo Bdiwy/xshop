@@ -1,0 +1,37 @@
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--xshop-background);;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--xshop-primary);;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--xshop-secondary);
+}
+
+body{
+    background: var(--xshop-background);
+    color: var(--xshop-text);
+    overflow-x: hidden;
+}
+
+
+#website-preloader{
+    transition: 500ms;
+}
+
+.color-bullet{
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    border-radius: 50%;
+}
